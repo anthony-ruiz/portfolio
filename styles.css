@@ -23,9 +23,15 @@
 }
 /* name and title */
 #home h1{
-    padding: 30% 0 0 80px;
-    font-size: 8vh;
-    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    width: max-content;
+    font-size:calc(30px + 3vw);
+    color: #0277bc;
+    
     
 }
 
@@ -35,6 +41,7 @@
     position:fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
   }
   
   .navbar a {
@@ -73,15 +80,88 @@
 #about p{
     padding-top: 5%;
 }
-
 #profilePicture{
     border-radius: 50%;
     padding: 2%;
 }
 
+#skills{
+    height: 100%;
+}
+
+.flex-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills-section-title{
+    padding: 1em;
+}
+.col{
+    padding: 5%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.icon{
+    padding: 5%;
+    height: 10vh;
+    width: 10vh;
+}
 
 
+.col-portfolio{
+    padding: 2%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.col-portfolio:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.col-portfolio h4{
+    font-size: 2em;
+    padding: 1%;
+}
+.col-portfolio h3{
+    font-size: 1.3em;
+    padding: 1%;
+}
+
+.col-portfolio p{
+    padding: 1%;
+    font-size: 1.1em;
+}
+.project-image{
+    width: 40%;
+    min-width: 300px;
+}
+
+.project-description{
+    height: 100%;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    color: #004c8c;
+}
+
+#contacts{
+    margin-bottom: 80px;
+    font-size: 1.3em;
+
+}
+#mail-icon{
+    margin-top: 80px;
+   margin-bottom: 80px;
+}
 
 footer{
-    background-color: rgb(30,16,16);
+    color: #004c8b;;
+    text-align: center;
 }
