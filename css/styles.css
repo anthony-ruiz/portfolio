@@ -14,7 +14,7 @@
   }
   /* fisrst section with my name and title */
 #home{
-    background-image: url("bg-masthead.jpg");
+    background-image: url("../img/bg-masthead.jpg");
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
