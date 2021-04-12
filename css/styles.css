@@ -51,7 +51,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 19px;
   }
   
   .navbar a:hover {
@@ -69,7 +69,7 @@
 }
 
 #about{
-    height: 100%;
+    
     text-align: center;
     margin: auto;
     width: 60%;
@@ -78,7 +78,10 @@
     
 }
 #about p{
+    text-align: center;
+    line-height: 1.6;
     padding-top: 5%;
+    font-size: 150%;
 }
 #profilePicture{
     border-radius: 50%;
@@ -106,20 +109,25 @@
 .col-experience p{
     text-align: left;
     margin-left: 10%;
+    font-size: 1.3em;
 }
 
 .col-experience h3{
+    font-size: 1.6em;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#experience h2{
+    font-size: 2em;
+    text-align: center;
 }
 
 #company-image{
     align-self: center;
 }
 
-#experience h2{
-    text-align: center;
-}
+
 #skills{
     height: 100%;
 }
@@ -160,17 +168,17 @@
 }
 
 .col-portfolio h4{
-    font-size: 2em;
+    font-size: 2.3em;
     padding: 1%;
 }
 .col-portfolio h3{
-    font-size: 1.3em;
+    font-size: 1.6em;
     padding: 1%;
 }
 
 .col-portfolio p{
     padding: 1%;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 .project-image{
     width: 40%;
