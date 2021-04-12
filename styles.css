@@ -1,0 +1,87 @@
+/* sets the padding and font for all of the page */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* allows the image to take the whole screen */
+/* TODO: it breaks the task bar */
+ body, html{
+    height: 100%;
+    margin: 0;
+  }
+  /* fisrst section with my name and title */
+#home{
+    background-image: url("bg-masthead.jpg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* name and title */
+#home h1{
+    padding: 30% 0 0 80px;
+    font-size: 8vh;
+    color: white;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position:fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #004c8b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #0277bc;
+    color: black;
+  }
+
+.segment{
+    text-align: center;
+    color: #004c8c; 
+}
+.segmentTitle{
+    padding: 5%;
+    font-size: 5vh;
+}
+
+#about{
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color: #004c8c;
+    
+}
+#about p{
+    padding-top: 5%;
+}
+
+#profilePicture{
+    border-radius: 50%;
+    padding: 2%;
+}
+
+
+
+
+footer{
+    background-color: rgb(30,16,16);
+}
