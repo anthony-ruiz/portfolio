@@ -7,12 +7,12 @@ Live site:
 [anthonyruiz.dev](https://anthony-ruiz.github.io/portfolio/)
 
 
-##Tools used:
+## Tools used:
 * HTML
 * CSS
 
 
-##Screenshots
+## Screenshots
 
 Here are some screenshots:
 
