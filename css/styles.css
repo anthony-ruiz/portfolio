@@ -23,6 +23,7 @@
 }
 /* name and title */
 #home h1{
+    font-family: 'Roboto Slab', serif;
     position: absolute;
     top: 50%;
     left: 50%;
