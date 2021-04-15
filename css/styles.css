@@ -89,6 +89,11 @@
 
 #myTopnav{
     position: fixed;
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(233, 233, 233);
+    
 }
 
 .segment{
