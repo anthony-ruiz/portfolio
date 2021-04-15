@@ -87,6 +87,10 @@
     }
   }
 
+#myTopnav{
+    position: fixed;
+}
+
 .segment{
     text-align: center;
     color: #004c8c; 
