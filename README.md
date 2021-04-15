@@ -1,6 +1,6 @@
 # portfolio
 
-This is a Portfolio website that was done using pure HTML and CSS
+This is a Portfolio website that was done using  HTML, CSS and JavaScript
 It contains Experience, Projects and Contact information. 
 
 Live site: 
@@ -10,6 +10,7 @@ Live site:
 ## Tools used:
 * HTML
 * CSS
+* JavaScript
 
 
 ## Screenshots
