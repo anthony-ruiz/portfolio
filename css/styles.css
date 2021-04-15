@@ -30,7 +30,7 @@
     transform: translate(-50%, -50%);
    
     width: max-content;
-    font-size:calc(25px + 3vw);
+    font-size:calc(20px + 3vw);
     color: #616db4;
     
     
@@ -215,7 +215,7 @@
 }
 .project-image{
     width: 40%;
-    min-width: 300px;
+    min-width: 230px;
 }
 
 .project-description{
