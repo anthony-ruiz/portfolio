@@ -1,10 +1,13 @@
 # portfolio
 
-This is a Portfolio website that was done using  HTML, CSS and JavaScript
+This is a Portfolio website that was done using:
+* HTML
+* CSS
+* JavaScript
 It contains Experience, Projects and Contact information. 
 
 Live site: 
-[anthonyruiz.dev](https://anthony-ruiz.github.io/portfolio/)
+[https://anthony-ruiz.github.io/portfolio/](https://anthony-ruiz.github.io/portfolio/)
 
 
 ## Tools used:
